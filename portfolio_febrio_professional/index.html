@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Febrio Putra Pratama</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-glow"></div>
+
+  <header class="navbar">
+    <a href="#home" class="brand">Febrio<span>Katanyastealer</span></a>
+
+    <nav class="nav-menu" id="navMenu">
+      <a href="#home">Home</a>
+      <a href="#about">Tentang</a>
+      <a href="#skills">Skill</a>
+      <a href="#projects">Project</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+
+    <button class="menu-toggle" id="menuToggle">☰</button>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-text reveal">
+        <p class="eyebrow"> Mahasiswa Teknik Informatika</p>
+        <h1>Halo, saya <span>Febrio Putra Pratama</span></h1>
+        <p class="hero-desc">
+          Saya membangun project web, database, dan artificial intelligence sebagai bagian dari proses belajar dan pengembangan skill di bidang teknologi.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn primary">Lihat Project</a>
+          <a href="#contact" class="btn secondary">Hubungi Saya</a>
+        </div>
+      </div>
+
+      <div class="profile-card reveal">
+
+  <div class="photo-slider">
+    <div class="slides">
+      <img src="assets/foto1.jpg" alt="Foto 1">
+      <img src="assets/foto2.jpg" alt="Foto 2">
+      <img src="assets/foto3.jpg" alt="Foto 3">
+      <img src="assets/foto4.jpg" alt="Foto 4">
+      <img src="assets/foto5.jpg" alt="Foto 5">
+    </div>
+  </div>
+
+  <h2>Web Developer & AI Enthusiast</h2>
+  <p>
+    Fokus pada pengembangan aplikasi berbasis web, sistem informasi,
+    database, dan penerapan AI sederhana berbasis JavaScript.
+  </p>
+
+  <div class="stats">
+    <div>
+      <h3>5+</h3>
+      <span>Project</span>
+    </div>
+    <div>
+      <h3>TI</h3>
+      <span>Jurusan</span>
+    </div>
+    <div>
+      <h3>AI</h3>
+      <span>Interest</span>
+    </div>
+  </div>
+</div>
+    </section>
+
+    <section id="skills" class="section split-section">
+      <div class="section-header reveal">
+        <p class="section-label">Skill</p>
+        <h2>Tools yang pernah saya gunakan.</h2>
+      </div>
+
+      <div class="skills-grid reveal">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>PHP</span>
+        <span>Laravel</span>
+        <span>CodeIgniter 4</span>
+        <span>MySQL</span>
+        <span>MongoDB</span>
+        <span>Supabase</span>
+        <span>TensorFlow.js</span>
+        <span>COCO-SSD</span>
+        <span>Roboflow</span>
+        <span>NodeJs</span>
+        <span>Figma</span>
+        <span>React</span>
+        <span>vercel</span>
+      </div>
+    </section>
+
+    <section id="projects" class="section split-section">
+      <div class="section-header reveal">
+        <p class="section-label">Project</p>
+        <h2>Beberapa project yang pernah saya kerjakan.</h2>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img src="assets/ai-project.png" alt="AI Project">
+          </div>
+          <div class="project-content">
+            <h3>AI Pendeteksi Manusia</h3>
+            <p>Sistem deteksi manusia realtime berbasis website menggunakan webcam, TensorFlow.js, dan COCO-SSD.</p>
+            <div class="tags">
+              <span>AI</span><span>TensorFlow.js</span><span>Webcam</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img src="assets/cafe-project.png" alt="Cafe Project">
+          </div>
+          <div class="project-content">
+            <h3>Hapiyo Cafe</h3>
+            <p>Aplikasi coffee shop berbasis Laravel dengan fitur menu, keranjang, order, admin, dan kasir.</p>
+            <div class="tags">
+              <span>Laravel</span><span>PHP</span><span>MySQL</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img src="assets/plat-project.png" alt="Plat Project">
+          </div>
+          <div class="project-content">
+            <h3>Deteksi Plat Nomor</h3>
+            <p>Project OCR untuk membaca plat nomor kendaraan berbasis kamera, JavaScript, dan Supabase.</p>
+            <div class="tags">
+              <span>OCR</span><span>JavaScript</span><span>Supabase</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-content">
+            <div class="project-image">
+              <img src="assets/perpus-project.png" alt="Perpus Project">
+            </div>
+            <h3>Aplikasi Perpustakaan</h3>
+            <p>Aplikasi perpustakaan berbasis CodeIgniter 4 untuk mengelola data buku dan transaksi.</p>
+            <div class="tags">
+              <span>CI4</span><span>PHP</span><span>Database</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-image">
+            <img src="assets/mongodb-project.png" alt="MongoDB Project">
+          </div>
+          <div class="project-content">
+            <h3>MongoDB Analytics</h3>
+            <p>Project database MongoDB dengan collection, aggregation pipeline, lookup, dan insight data.</p>
+            <div class="tags">
+              <span>MongoDB</span><span>Database</span><span>Aggregation</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-icon">🌐</div>
+          <div class="project-content">
+            <h3>Landing Page Project</h3>
+            <p>Kumpulan desain landing page modern untuk presentasi project kampus dan website sederhana.</p>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>UI Design</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section split-section">
+      <div class="contact-box reveal">
+        <div>
+          <p class="section-label">Kontak</p>
+          <h2>Tertarik diskusi project?</h2>
+          <p>Hubungi saya untuk kolaborasi, tugas kuliah, atau pengembangan website.</p>
+        </div>
+        <a href="mailto:febriopp25@gmail.com" class="btn primary">Email Saya</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Febrio Putra Pratama.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
